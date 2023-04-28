@@ -1,0 +1,384 @@
+{
+  "format": 1,
+  "restore": {
+    "C:\\Users\\Victor Portela\\Documents\\Victor\\Cursos\\Udemy\\CSharp\\FullStack\\Projeto\\avaliacao_dev_backend\\src\\Vectra.Avaliacao.Backend.API\\Vectra.Avaliacao.Backend.API.csproj": {}
+  },
+  "projects": {
+    "C:\\Users\\Victor Portela\\Documents\\Victor\\Cursos\\Udemy\\CSharp\\FullStack\\Projeto\\avaliacao_dev_backend\\src\\Vectra.Avaliacao.Backend.API\\Vectra.Avaliacao.Backend.API.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\Victor Portela\\Documents\\Victor\\Cursos\\Udemy\\CSharp\\FullStack\\Projeto\\avaliacao_dev_backend\\src\\Vectra.Avaliacao.Backend.API\\Vectra.Avaliacao.Backend.API.csproj",
+        "projectName": "Vectra.Avaliacao.Backend.API",
+        "projectPath": "C:\\Users\\Victor Portela\\Documents\\Victor\\Cursos\\Udemy\\CSharp\\FullStack\\Projeto\\avaliacao_dev_backend\\src\\Vectra.Avaliacao.Backend.API\\Vectra.Avaliacao.Backend.API.csproj",
+        "packagesPath": "C:\\Users\\Victor Portela\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Victor Portela\\Documents\\Victor\\Cursos\\Udemy\\CSharp\\FullStack\\Projeto\\avaliacao_dev_backend\\src\\Vectra.Avaliacao.Backend.API\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\Victor Portela\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Program Files\\dotnet\\library-packs": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {
+              "C:\\Users\\Victor Portela\\Documents\\Victor\\Cursos\\Udemy\\CSharp\\FullStack\\Projeto\\avaliacao_dev_backend\\src\\Vectra.Avaliacao.Backend.Application\\Vectra.Avaliacao.Backend.Application.csproj": {
+                "projectPath": "C:\\Users\\Victor Portela\\Documents\\Victor\\Cursos\\Udemy\\CSharp\\FullStack\\Projeto\\avaliacao_dev_backend\\src\\Vectra.Avaliacao.Backend.Application\\Vectra.Avaliacao.Backend.Application.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "dependencies": {
+            "AutoMapper.Extensions.Microsoft.DependencyInjection": {
+              "target": "Package",
+              "version": "[8.1.1-preview.5.21301.5, )"
+            },
+            "Microsoft.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[6.0.0-preview.5.21301.9, )"
+            },
+            "Microsoft.EntityFrameworkCore.Proxies": {
+              "target": "Package",
+              "version": "[6.0.0-preview.5.21301.9, )"
+            },
+            "Microsoft.EntityFrameworkCore.SqlServer": {
+              "target": "Package",
+              "version": "[6.0.0-preview.5.21301.9, )"
+            },
+            "Microsoft.EntityFrameworkCore.Tools": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[6.0.0-preview.5.21301.9, )"
+            },
+            "Microsoft.Extensions.DependencyInjection": {
+              "target": "Package",
+              "version": "[6.0.0-preview.5.21301.5, )"
+            },
+            "Microsoft.Extensions.DependencyInjection.Abstractions": {
+              "target": "Package",
+              "version": "[6.0.0-preview.5.21301.5, )"
+            },
+            "Newtonsoft.Json": {
+              "target": "Package",
+              "version": "[6.0.0-preview.5.21301.9, )"
+            },
+            "Swashbuckle.AspNetCore": {
+              "target": "Package",
+              "version": "[5.6.3, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.AspNetCore.App": {
+              "privateAssets": "none"
+            },
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.203\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\Victor Portela\\Documents\\Victor\\Cursos\\Udemy\\CSharp\\FullStack\\Projeto\\avaliacao_dev_backend\\src\\Vectra.Avaliacao.Backend.Application\\Vectra.Avaliacao.Backend.Application.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\Victor Portela\\Documents\\Victor\\Cursos\\Udemy\\CSharp\\FullStack\\Projeto\\avaliacao_dev_backend\\src\\Vectra.Avaliacao.Backend.Application\\Vectra.Avaliacao.Backend.Application.csproj",
+        "projectName": "Vectra.Avaliacao.Backend.Application",
+        "projectPath": "C:\\Users\\Victor Portela\\Documents\\Victor\\Cursos\\Udemy\\CSharp\\FullStack\\Projeto\\avaliacao_dev_backend\\src\\Vectra.Avaliacao.Backend.Application\\Vectra.Avaliacao.Backend.Application.csproj",
+        "packagesPath": "C:\\Users\\Victor Portela\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Victor Portela\\Documents\\Victor\\Cursos\\Udemy\\CSharp\\FullStack\\Projeto\\avaliacao_dev_backend\\src\\Vectra.Avaliacao.Backend.Application\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\Victor Portela\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Program Files\\dotnet\\library-packs": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {
+              "C:\\Users\\Victor Portela\\Documents\\Victor\\Cursos\\Udemy\\CSharp\\FullStack\\Projeto\\avaliacao_dev_backend\\src\\Vectra.Avaliacao.Backend.Domain\\Vectra.Avaliacao.Backend.Domain.csproj": {
+                "projectPath": "C:\\Users\\Victor Portela\\Documents\\Victor\\Cursos\\Udemy\\CSharp\\FullStack\\Projeto\\avaliacao_dev_backend\\src\\Vectra.Avaliacao.Backend.Domain\\Vectra.Avaliacao.Backend.Domain.csproj"
+              },
+              "C:\\Users\\Victor Portela\\Documents\\Victor\\Cursos\\Udemy\\CSharp\\FullStack\\Projeto\\avaliacao_dev_backend\\src\\Vectra.Avaliacao.Backend.Persistence\\Vectra.Avaliacao.Backend.Persistence.csproj": {
+                "projectPath": "C:\\Users\\Victor Portela\\Documents\\Victor\\Cursos\\Udemy\\CSharp\\FullStack\\Projeto\\avaliacao_dev_backend\\src\\Vectra.Avaliacao.Backend.Persistence\\Vectra.Avaliacao.Backend.Persistence.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "dependencies": {
+            "AutoMapper.Extensions.Microsoft.DependencyInjection": {
+              "target": "Package",
+              "version": "[8.1.1-preview.5.21301.5, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.203\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\Victor Portela\\Documents\\Victor\\Cursos\\Udemy\\CSharp\\FullStack\\Projeto\\avaliacao_dev_backend\\src\\Vectra.Avaliacao.Backend.Domain\\Vectra.Avaliacao.Backend.Domain.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\Victor Portela\\Documents\\Victor\\Cursos\\Udemy\\CSharp\\FullStack\\Projeto\\avaliacao_dev_backend\\src\\Vectra.Avaliacao.Backend.Domain\\Vectra.Avaliacao.Backend.Domain.csproj",
+        "projectName": "Vectra.Avaliacao.Backend.Domain",
+        "projectPath": "C:\\Users\\Victor Portela\\Documents\\Victor\\Cursos\\Udemy\\CSharp\\FullStack\\Projeto\\avaliacao_dev_backend\\src\\Vectra.Avaliacao.Backend.Domain\\Vectra.Avaliacao.Backend.Domain.csproj",
+        "packagesPath": "C:\\Users\\Victor Portela\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Victor Portela\\Documents\\Victor\\Cursos\\Udemy\\CSharp\\FullStack\\Projeto\\avaliacao_dev_backend\\src\\Vectra.Avaliacao.Backend.Domain\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\Victor Portela\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Program Files\\dotnet\\library-packs": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "dependencies": {
+            "Microsoft.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[6.0.0-preview.5.21301.9, )"
+            },
+            "Microsoft.EntityFrameworkCore.Proxies": {
+              "target": "Package",
+              "version": "[6.0.0-preview.5.21301.9, )"
+            },
+            "Microsoft.EntityFrameworkCore.SqlServer": {
+              "target": "Package",
+              "version": "[6.0.0-preview.5.21301.9, )"
+            },
+            "Microsoft.EntityFrameworkCore.Tools": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[6.0.0-preview.5.21301.9, )"
+            },
+            "Microsoft.Extensions.DependencyInjection": {
+              "target": "Package",
+              "version": "[6.0.0-preview.5.21301.5, )"
+            },
+            "Microsoft.Extensions.DependencyInjection.Abstractions": {
+              "target": "Package",
+              "version": "[6.0.0-preview.5.21301.5, )"
+            },
+            "Newtonsoft.Json": {
+              "target": "Package",
+              "version": "[6.0.0-preview.5.21301.9, )"
+            },
+            "Swashbuckle.AspNetCore": {
+              "target": "Package",
+              "version": "[5.6.3, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.203\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\Victor Portela\\Documents\\Victor\\Cursos\\Udemy\\CSharp\\FullStack\\Projeto\\avaliacao_dev_backend\\src\\Vectra.Avaliacao.Backend.Persistence\\Vectra.Avaliacao.Backend.Persistence.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\Victor Portela\\Documents\\Victor\\Cursos\\Udemy\\CSharp\\FullStack\\Projeto\\avaliacao_dev_backend\\src\\Vectra.Avaliacao.Backend.Persistence\\Vectra.Avaliacao.Backend.Persistence.csproj",
+        "projectName": "Vectra.Avaliacao.Backend.Persistence",
+        "projectPath": "C:\\Users\\Victor Portela\\Documents\\Victor\\Cursos\\Udemy\\CSharp\\FullStack\\Projeto\\avaliacao_dev_backend\\src\\Vectra.Avaliacao.Backend.Persistence\\Vectra.Avaliacao.Backend.Persistence.csproj",
+        "packagesPath": "C:\\Users\\Victor Portela\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Victor Portela\\Documents\\Victor\\Cursos\\Udemy\\CSharp\\FullStack\\Projeto\\avaliacao_dev_backend\\src\\Vectra.Avaliacao.Backend.Persistence\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\Victor Portela\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Program Files\\dotnet\\library-packs": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {
+              "C:\\Users\\Victor Portela\\Documents\\Victor\\Cursos\\Udemy\\CSharp\\FullStack\\Projeto\\avaliacao_dev_backend\\src\\Vectra.Avaliacao.Backend.Domain\\Vectra.Avaliacao.Backend.Domain.csproj": {
+                "projectPath": "C:\\Users\\Victor Portela\\Documents\\Victor\\Cursos\\Udemy\\CSharp\\FullStack\\Projeto\\avaliacao_dev_backend\\src\\Vectra.Avaliacao.Backend.Domain\\Vectra.Avaliacao.Backend.Domain.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "dependencies": {
+            "Microsoft.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[6.0.0-preview.5.21301.9, )"
+            },
+            "Microsoft.EntityFrameworkCore.Proxies": {
+              "target": "Package",
+              "version": "[6.0.0-preview.5.21301.9, )"
+            },
+            "Microsoft.EntityFrameworkCore.SqlServer": {
+              "target": "Package",
+              "version": "[6.0.0-preview.5.21301.9, )"
+            },
+            "Microsoft.EntityFrameworkCore.Tools": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[6.0.0-preview.5.21301.9, )"
+            },
+            "Microsoft.Extensions.DependencyInjection": {
+              "target": "Package",
+              "version": "[6.0.0-preview.5.21301.5, )"
+            },
+            "Microsoft.Extensions.DependencyInjection.Abstractions": {
+              "target": "Package",
+              "version": "[6.0.0-preview.5.21301.5, )"
+            },
+            "Newtonsoft.Json": {
+              "target": "Package",
+              "version": "[6.0.0-preview.5.21301.9, )"
+            },
+            "Swashbuckle.AspNetCore": {
+              "target": "Package",
+              "version": "[5.6.3, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.203\\RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}
